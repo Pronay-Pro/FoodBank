@@ -45,7 +45,7 @@ let aboutFood = foodInfo => {
             <img class="foodImage" src="${ data.meals[0].strMealThumb }">
             <h1>${ data.meals[0].strMeal }</h1>
             <h1>Category: ${ data.meals[0].strCategory }</h1>
-            <h2 class="Ingredient">Ingredient :</h2>
+            <h2> class="Ingredient">Ingredient :</h2>
             <p><span class=icon>☑</span> ${data.meals[0].strIngredient1}</p>
             <p><span class=icon>☑</span> ${data.meals[0].strIngredient2}</p>
             <p><span class=icon>☑</span> ${data.meals[0].strIngredient3}</p>
