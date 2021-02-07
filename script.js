@@ -45,12 +45,12 @@ let aboutFood = foodInfo => {
             <img class="foodImage" src="${ data.meals[0].strMealThumb }">
             <h1>${ data.meals[0].strMeal }</h1>
             <h1>Category: ${ data.meals[0].strCategory }</h1>
-            <p><span class=icon>☑</span> ${data.meals[0].strMeasure1}</p>
-            <p><span class=icon>☑</span> ${data.meals[0].strMeasure2}</p>
-            <p><span class=icon>☑</span> ${data.meals[0].strMeasure3}</p>
-            <p><span class=icon>☑</span> ${data.meals[0].strMeasure4}</p>
-            <p><span class=icon>☑</span> ${data.meals[0].strMeasure5}</p>
-            <p><span class=icon>☑</span> ${data.meals[0].strMeasure6}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strIngredient1}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strIngredient2}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strIngredient3}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strIngredient4}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strIngredient5}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strIngredient6}</p>
             `;
             foodDetails.appendChild(foodIngredients);
         })
