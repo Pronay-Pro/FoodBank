@@ -1,3 +1,77 @@
-body{
-    background-color: lightgoldenrodyellow;
+body {
+    /* background-color:yellowgreen; */
+}
+.navbar-heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar {
+    font-size: 20px;
+    color: black;
+}
+
+.navbar-item{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    margin: 10px;
+}
+#foodInput {
+    font-size: 20px;
+    color: crimson;
+}
+#search {
+    font-size: 20px;
+}
+.card{
+    width: 300px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 15px;
+}
+.card h1{
+    font-size: 25px;
+    padding: 15px 5px;
+    text-align: center;
+}
+.card img{
+    border-radius: 20px 20px 0px 0px;
+}
+.alertImage{
+   margin-left: 490px;
+}
+.alertLine{
+    margin-left: 450px;
+    font-weight: 900;
+    color: crimson;
+}
+#foodInfo{
+    text-align: center;
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    border-radius: 30px;
+    padding: 20px 0px;
+    display: none;
+}
+.foodImage {
+    width: 40%;
+    border-radius: 30px;
+}
+ h1{
+    padding: 5px 0px;
+    font-size: 30px;
+    
+}
+ h4{
+    padding:5px;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 200px;
+
+}
+.icon{
+    color: black;
+}
+.food-details{
+    width: 50%;
+    margin: 0 auto;
 }
