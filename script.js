@@ -39,18 +39,19 @@ let aboutFood = foodInfo => {
             document.getElementById('foodInfo').innerHTML = ' ';
             document.getElementById('foodInfo').style.display = 'block';
             let foodIngredients = document.createElement('div')
+            foodIngredients.className= "foodDiv"
             foodIngredients.innerHTML = `
             <img class="foodImage" src="${ data.meals[0].strMealThumb }">
             <h1>${ data.meals[0].strMeal }</h1>
-            <br>
             <h1>Category: ${ data.meals[0].strCategory }</h1>
-            <br>
-            <h4><span class=icon>☑</span> ${data.meals[0].strMeasure1}</h4>
-            <h4><span class=icon>☑</span> ${data.meals[0].strMeasure2}</h4>
-            <h4><span class=icon>☑</span> ${data.meals[0].strMeasure3}</h4>
-            <h4><span class=icon>☑</span> ${data.meals[0].strMeasure4}</h4>
-            <h4><span class=icon>☑</span> ${data.meals[0].strMeasure5}</h4>
-            <h4><span class=icon>☑</span> ${data.meals[0].strMeasure6}</h4>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure1}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure2}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure3}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure4}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure5}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure6}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure7}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure9}</p>
             `;
             foodDetails.appendChild(foodIngredients);
         })
