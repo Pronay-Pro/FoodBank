@@ -28,6 +28,7 @@ search.addEventListener('click', function () {
             `
             foodDisplay.appendChild(alert);
         })
+        document.getElementById('foodInfo').style.display = 'none';
         document.getElementById('foodInput').value ="";
 })
 
