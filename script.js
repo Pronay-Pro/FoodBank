@@ -32,7 +32,7 @@ search.addEventListener('click', function () {
 })
 
 let aboutFood = foodInfo => {
-    fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${ foodInfo }`)
+    fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${foodInfo}`)
         .then(res => res.json())
         .then(data => {
             let foodDetails = document.getElementById('foodInfo');
@@ -45,12 +45,12 @@ let aboutFood = foodInfo => {
             <br>
             <h1>Category: ${ data.meals[0].strCategory }</h1>
             <br>
-            <h4><span class=icon>☑</span> ${ data.meals[0].strMeasure1 }</h4>
-            <h4><span class=icon>☑</span> ${ data.meals[0].strMeasure2 }</h4>
-            <h4><span class=icon>☑</span> ${ data.meals[0].strMeasure3 }</h4>
-            <h4><span class=icon>☑</span> ${ data.meals[0].strMeasure4 }</h4>
-            <h4><span class=icon>☑</span> ${ data.meals[0].strMeasure5 }</h4>
-            <h4><span class=icon>☑</span> ${ data.meals[0].strMeasure6 }</h4>
+            <h4><span class=icon>☑</span> ${data.meals[0].strMeasure1}</h4>
+            <h4><span class=icon>☑</span> ${data.meals[0].strMeasure2}</h4>
+            <h4><span class=icon>☑</span> ${data.meals[0].strMeasure3}</h4>
+            <h4><span class=icon>☑</span> ${data.meals[0].strMeasure4}</h4>
+            <h4><span class=icon>☑</span> ${data.meals[0].strMeasure5}</h4>
+            <h4><span class=icon>☑</span> ${data.meals[0].strMeasure6}</h4>
             `;
             foodDetails.appendChild(foodIngredients);
         })
