@@ -55,6 +55,10 @@ let aboutFood = foodInfo => {
             <p><span class=icon>☑</span> ${data.meals[0].strMeasure4} ${data.meals[0].strIngredient4}</p>
             <p><span class=icon>☑</span> ${data.meals[0].strMeasure5} ${data.meals[0].strIngredient5}</p>
             <p><span class=icon>☑</span> ${data.meals[0].strMeasure6} ${data.meals[0].strIngredient6}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure7} ${data.meals[0].strIngredient7}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure8} ${data.meals[0].strIngredient8}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure9} ${data.meals[0].strIngredient9}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure10} ${data.meals[0].strIngredient10}</p>
             `;
             foodDetails.appendChild(foodIngredients);
         })
