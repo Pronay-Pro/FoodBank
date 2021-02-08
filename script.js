@@ -1,7 +1,8 @@
 const search = document.getElementById('search');
 search.addEventListener('click', function () {
     const foodInput = document.getElementById('foodInput').value;
-    fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${ foodInput }`)
+    const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${ foodInput }`
+    fetch(url)
         .then(res => res.json())
         .then(data => {
             document.getElementById('foodDisplay').innerHTML = "";
@@ -33,7 +34,8 @@ search.addEventListener('click', function () {
 })
 
 let aboutFood = foodInfo => {
-    fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${foodInfo}`)
+    const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${foodInfo}`
+    fetch(url)
         .then(res => res.json())
         .then(data => {
             let foodDetails = document.getElementById('foodInfo');
