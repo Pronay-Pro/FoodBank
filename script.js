@@ -49,12 +49,12 @@ let aboutFood = foodInfo => {
             <h1>${ data.meals[0].strMeal }</h1>
             <h1>Category: ${ data.meals[0].strCategory }</h1>
             <p class="Ingredient">Ingredient :</p>
-            <p><span class=icon>☑</span> ${data.meals[0].strMeasure1}${data.meals[0].strIngredient1}</p>
-            <p><span class=icon>☑</span> ${data.meals[0].strMeasure2}${data.meals[0].strIngredient2}</p>
-            <p><span class=icon>☑</span> ${data.meals[0].strMeasure3}${data.meals[0].strIngredient3}</p>
-            <p><span class=icon>☑</span> ${data.meals[0].strMeasure4}${data.meals[0].strIngredient4}</p>
-            <p><span class=icon>☑</span> ${data.meals[0].strMeasure5}${data.meals[0].strIngredient5}</p>
-            <p><span class=icon>☑</span> ${data.meals[0].strMeasure6}${data.meals[0].strIngredient6}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure1} ${data.meals[0].strIngredient1}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure2} ${data.meals[0].strIngredient2}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure3} ${data.meals[0].strIngredient3}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure4} ${data.meals[0].strIngredient4}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure5} ${data.meals[0].strIngredient5}</p>
+            <p><span class=icon>☑</span> ${data.meals[0].strMeasure6} ${data.meals[0].strIngredient6}</p>
             `;
             foodDetails.appendChild(foodIngredients);
         })
