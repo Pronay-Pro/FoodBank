@@ -24,8 +24,8 @@ search.addEventListener('click', function () {
             const foodDisplay = document.getElementById('foodDisplay');
             const alert = document.createElement('div') 
             alert.innerHTML =`
-            <img class="alertImage" src="img/cooking.gif">
-            <h1 class="alertLine">Sorry can't find this meals...</h1>
+            <img src="img/cooking.gif">
+            <h1>Sorry can't find this meals...</h1>
             `
             foodDisplay.appendChild(alert);
         })

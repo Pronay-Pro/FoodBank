@@ -46,14 +46,6 @@ body {
     cursor: pointer;
     background-color: crimson;
 }
-.alertImage{
-   margin-left: 490px;
-}
-.alertLine{
-    margin-left: 450px;
-    font-weight: 900;
-    color: crimson;
-}
 #foodInfo{
     text-align: center;
     background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
