@@ -1,5 +1,6 @@
 body {
     /* background-color:yellowgreen; */
+    /* font-family: 'Kaushan Script', cursive; */
 }
 .navbar-heading{
     font-size: 30px;
@@ -15,6 +16,15 @@ body {
     padding: 10px;
     font-weight: 700;
     margin: 10px;
+}
+.tag-heading{
+    font-size: 50px;
+    color: crimson;
+    font-family: 'Kaushan Script', cursive;
+}
+.tag-line{
+    color: crimson;
+    font-family: 'Kaushan Script', cursive;
 }
 #foodInput {
     font-size: 20px;
